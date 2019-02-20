@@ -1,0 +1,99 @@
+body{
+  width: 80%;
+  /*border: 1px solid red;*/
+  margin: auto;
+  margin-top: 20px;
+  font-size: 0.9em;
+  /*font-family: "Trebuchet MS";*/
+  font-family: "Arial";
+}
+
+nav{
+  background-color: #2e3192;
+  float: left;
+  width: 97%;
+  padding: 10px;
+  /*margin: auto;*/
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navlink{
+  text-decoration: none;
+  color: white;
+  background-color: #ed1c24;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.userindicator{
+  color: white;
+  padding: 6px;
+  font-size: 0.9em;
+}
+
+.navlink:hover{
+  background-color: red;
+}
+
+.left{
+  float: left;
+  margin-left: 20px;
+}
+
+.right{
+  float: right;
+}
+
+
+/*MAIN CONTENT*/
+
+.main-content{
+  border: 1px solid #ccc;
+  clear: both;
+  width: 95%;
+  margin: auto;
+  padding: 20px;
+  float: left;
+}
+
+.div-makanan, .div-minuman,
+.div-pesanan{
+  /*float: left;*/
+  border: 1px solid #ccc;
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  border-radius: 2px;
+  /*clear: left;*/
+}
+
+.div-pesanan{
+  /*float: right;*/
+  width: auto;
+  border-radius: 2px;
+  /*clear: right;*/
+}
+
+.crud-button{
+  color: white;
+  background-color: #ed1c24;
+  padding: 5px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+th, td{
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.td-namaitem{
+  width: 150px;
+}
+
+.td-harga{
+  width: 100px;
+}
